@@ -8,7 +8,8 @@ curl "${API}${URL_PATH}/${ID}" \
   --header "Authorization: Bearer ${TOKEN}" \
   --data '{
     "reward": {
-      "points": "'"${POINTS}"'"
+      "truck": "'"${TRUCK}"'"
+      "ratings": "'"${RATINGS}"'"
     }
   }'
 

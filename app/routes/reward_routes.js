@@ -14,6 +14,7 @@ const router = express.Router()
 
 // Create Route
 router.post('/rewards', requireToken, (req, res, next) => {
+  console.log('made it to create api')
   req.body.reward.owner = req.user.id
   Reward.create(req.body.reward)
     .then(reward => {
@@ -46,6 +47,7 @@ router.patch('/rewards/:id', requireToken, removeBlanks, (req, res, next) => {
   Reward.findById(req.params.id)
     .then(handle404)
     .then(reward => {
+      console.log(reward)
       requireOwnership(req, reward)
       return reward.updateOne(req.body.reward)
     })

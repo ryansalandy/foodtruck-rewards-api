@@ -1,10 +1,12 @@
 const mongoose = require('mongoose')
 
 const rewardSchema = new mongoose.Schema({
-  points: {
-    type: Number,
-    min: 0,
-    max: 25,
+  truck: {
+    type: String,
+    required: true
+  },
+  ratings: {
+    type: String,
     required: true
   },
   owner: {
