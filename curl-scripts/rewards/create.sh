@@ -10,7 +10,7 @@ curl "${API}${URL_PATH}" \
   --data '{
     "reward": {
       "truck": "'"${TRUCK}"'",
-      "ratings": "'"${RATING}"'"
+      "rating": "'"${RATING}"'"
     }
   }'
 
