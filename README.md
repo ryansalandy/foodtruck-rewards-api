@@ -1,7 +1,7 @@
 # Foodtruck Rewards
-This is a simple aplication to track Foodtruck reward programs. Where user can create a reward, read status of a reward, update the reward, and delete reward.
+This is a simple aplication to track Foodtruck digital rewards. A user can create a reward, read value of a reward, update the reward, and delete the reward.
 
-Foodtruck Reward contain the following technologies:
+Foodtruck Rewards contain the following technologies:
 
 MERN Stack
 * Mongo DB
@@ -9,7 +9,7 @@ MERN Stack
 * React.js
 * Node.js
 
-V2. will need to add the actual rewards and point system.
+V2. will need to add the actual rewards point system.
 
 ### Links
 * [Client Repo](https://github.com/ryansalandy/foodtruck-rewards-client)
