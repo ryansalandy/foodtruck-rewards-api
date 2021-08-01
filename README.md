@@ -10,7 +10,7 @@ MERN Stack
 * Node.js
 
 ### Links
-* [Client Side Repo](https://choosealicense.com/licenses/mit/)
+* [Client Side Repo](https://github.com/ryansalandy/foodtruck-rewards-client)
 * [Deployed Site](https://ryansalandy.github.io/foodtruck-rewards-client/#/)
 
 ## Planning
